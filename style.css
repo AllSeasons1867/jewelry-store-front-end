@@ -1,23 +1,42 @@
 .container {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
-.header {
-
+section {
+    display: block;
 }
 
-.nav {
-
+.firstArticle, .secondArticle {
+    flex-grow: 1;
+    background-color: #3498db; 
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.main {
+.secondArticle {
+    display: flex;
+}
 
+article {
+    flex-grow: 1;
 }
 
 .footer {
-
+    display: flex;
+    justify-content: center; /* Center the articles horizontally */
 }
 
+.article-container {
+    display: flex;
+}
 
+footer article {
+    background-color: #34495e; /* Background color for visualization */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 1; /* Each article takes up equal space */
+    margin: 5px; /* Add margin for spacing between articles */
+}
