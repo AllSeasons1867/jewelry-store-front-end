@@ -15,6 +15,18 @@ section {
     text-align: center;
 }
 
+.firstArticle {
+    background-image: url("./images/background.jpeg");
+    background-size: cover;
+    background-position: center center; 
+    height: 25vh;  
+    overflow: hidden; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 100px; 
+    /* width: 100%; */
+}
+
 .secondArticle {
     display: flex;
 }
@@ -25,7 +37,7 @@ article {
 
 .footer {
     display: flex;
-    justify-content: center; /* Center the articles horizontally */
+    justify-content: center;
 }
 
 .article-container {
@@ -33,10 +45,55 @@ article {
 }
 
 footer article {
-    background-color: #34495e; /* Background color for visualization */
+    background-color: #34495e;
     color: white;
     text-align: center;
     padding: 10px;
-    flex: 1; /* Each article takes up equal space */
-    margin: 5px; /* Add margin for spacing between articles */
+    flex: 1; 
+    margin: 5px;
+}
+
+img {
+    width: 50%;
+    padding: 5%;
+}
+
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container.nav {
+    background-color: #333; 
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 1%;
+    display: flex; 
+    justify-content: space-around; 
+    background-color: grey; 
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px;
+    display: block;
+}
+
+nav li a:hover {
+    background-color: #555;
 }
