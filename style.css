@@ -9,7 +9,7 @@ section {
 
 .firstArticle, .secondArticle {
     flex-grow: 1;
-    background-color: #3498db; 
+    background-color: #5898cc; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -19,7 +19,7 @@ section {
     background-image: url("./images/background.jpeg");
     background-size: cover;
     background-position: center center; 
-    height: 25vh;  
+    height: 50vh;  
     overflow: hidden; 
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ footer article {
     margin: 5px;
 }
 
-img {
+#titleImage {
     width: 50%;
     padding: 5%;
 }
@@ -85,6 +85,7 @@ nav ul {
 nav li {
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 nav li a {
@@ -96,4 +97,36 @@ nav li a {
 
 nav li a:hover {
     background-color: #555;
+}
+
+section > article {
+    overflow: hidden;
+}
+
+.subImages {
+    width: 50%;
+}
+
+.secondArticle > article {
+    width: 33%;
+}
+
+.secondArticle > article > p {
+    padding: 5%;
+    text-align: left;
+}
+
+.firstArticle > h1 {
+    text-align: left;
+    padding-top: 12.5%;
+}
+
+.firstArticle > p {
+    text-align: left;
+    width: 50%;
+    font-size: 1.25em;
+}
+
+h1 {
+    font-size: 2.25em;
 }
