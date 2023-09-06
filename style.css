@@ -9,7 +9,7 @@ section {
 
 .firstArticle, .secondArticle {
     flex-grow: 1;
-    background-color: #5898cc; 
+    background-color: #b5b5c7; 
     color: white;
     padding: 20px;
     text-align: center;
@@ -50,7 +50,7 @@ footer article {
     text-align: center;
     padding: 10px;
     flex: 1; 
-    margin: 5px;
+    /* margin: 5px; */
 }
 
 #titleImage {
@@ -105,10 +105,17 @@ section > article {
 
 .subImages {
     width: 50%;
+    border: 1px black transparent;
+    border-radius: 2.5%;
 }
 
 .secondArticle > article {
     width: 33%;
+    border: 1px black transparent;
+    margin: 1%;
+    border-radius: 2.5%;
+    background-color: grey;
+    padding: 1%;
 }
 
 .secondArticle > article > p {
